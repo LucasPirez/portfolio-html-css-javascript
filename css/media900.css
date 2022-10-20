@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  /* Menú */
+
+  /*title*/
+
+  /*Skills*/
+
+  /*Hobbies*/
+  .hobbies {
+    pointer-events: none;
+  }
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+  .experience {
+    height: auto;
+  }
+
+  .formcontato__form {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

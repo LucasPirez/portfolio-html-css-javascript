@@ -1,0 +1,80 @@
+@media (max-width: 580px) {
+  /*Menu*/
+  html,
+  body {
+    font-size: 0.85rem;
+  }
+  .menu__container__hamburguer {
+    display: block;
+  }
+
+  .menu__container__hamburguer:target {
+    display: none;
+  }
+
+  .menu__container__hamburguer:target ~ .menu__list {
+    display: block;
+  }
+
+  .menu__a__closed {
+    display: block;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .menu__list__item a {
+    color: #f5f5f5;
+  }
+
+  .menu__list__item {
+    transition: transform 0.3s;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  .menu__list__item:hover {
+    transform: translate(0, 3px);
+  }
+
+  /*Titulo*/
+
+  /*Sección sobre mi*/
+  .title {
+    width: 97%;
+  }
+
+  .title__div {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .title__profile {
+    width: 270px;
+    height: 270px;
+  }
+  /*Sección About*/
+
+  .about {
+    min-width: 300px;
+  }
+
+  /*Skills*/
+
+  /*Hobbies*/
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+  .experiencie__box {
+    width: 97%;
+  }
+
+  /*Contacto*/
+
+  .contacto__network__item > span {
+    display: none;
+  }
+  /*Footer*/
+}

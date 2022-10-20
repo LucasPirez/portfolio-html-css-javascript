@@ -1,0 +1,123 @@
+.skills__title{
+  margin-bottom: 2rem;
+}
+
+.tecnologi {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tecnologi > li {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 2vw;
+  width: 200px;
+  padding: 0.7rem;
+  align-items: center;
+  background: linear-gradient(to bottom, #024954, #06b6d4);
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+  border-radius: 6%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.tecnologi > li:hover {
+  color: #f09a9a;
+  transition: 0.5s;
+}
+
+.tecnologi__img {
+  filter: drop-shadow(14 14 red);
+  margin-right: 5px;
+}
+
+.a {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 600ms;
+}
+.b {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 900ms;
+}
+.b::after {
+  content: "";
+
+  animation: name 25s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 1200ms;
+  content: "Bootstrap";
+}
+
+@keyframes name {
+  0% {
+  }
+  25% {
+    content: "Tailwind";
+  }
+  50% {
+    content: "SCSS";
+  }
+  100% {
+    content: "Bootstrap";
+  }
+}
+
+.c {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 1500ms;
+}
+.d {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 1800ms;
+}
+.e {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 2100ms;
+}
+.f {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 2400ms;
+}
+.g {
+  animation: rot 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+  animation-delay: 2700ms;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(-30deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
+@media (max-width: 1024px) {
+  .tecnologi > li {
+    height: 40px;
+    margin-bottom: 2vw;
+    width: 200px;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .tecnologi > li {
+    height: 35px;
+    font-size: 0.8rem;
+    margin-bottom: 2vw;
+    width: 200px;
+    font-weight: normal;
+    padding: 0.4rem;
+  }
+  .tecnologi li img {
+    transform: scale(0.8);
+  }
+}

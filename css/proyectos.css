@@ -1,0 +1,134 @@
+.experience {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: 1160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.experience__section__title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 6.4rem;
+}
+
+.experiencie__box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 450px;
+  border-radius: 4px;
+  background: var(--background);
+  box-shadow: var(--lightBlue) 0px 2px 8px 0px;
+  border: 2px solid var(--lightBlue);
+}
+
+.experiencie__conditional {
+  position: fixed;
+  top: 25px;
+  max-width: 800px;
+  height: 600px;
+  z-index: 99;
+}
+
+.experience__img__container {
+  display: flex;
+  flex: 2;
+  overflow-x: scroll;
+  width: 100%;
+  height: 68%;
+}
+
+.experience__img__contain {
+  width: 400px;
+  height: 500px;
+}
+
+.experience__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.experience__img__container::-webkit-scrollbar {
+  display: none;
+  width: 10px;
+  width: 100%;
+  height: 10px;
+  background-color: lightblue;
+}
+.experience__img__container::-webkit-scrollbar {
+  display: initial;
+}
+.experience__img__container::-webkit-scrollbar-thumb {
+  background-color: #09c;
+}
+
+.experience__img {
+  width: 100%;
+  height: auto;
+}
+
+.experience__info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 300px;
+  padding: 0.7rem;
+  height: 100%;
+}
+.experience__title {
+  margin: 0 0 1rem 0;
+}
+
+.experience__text {
+  padding-bottom: 10px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.experience__description > button {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  height: 2.1rem;
+  border: none;
+  background: transparent;
+}
+
+.experience__description > button > img {
+  border: 2px dashed var(--lightBlue);
+  border-radius: 3px;
+  padding: 0.2rem;
+  background: transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.experience__description > button > img:hover {
+  transform: scale(1.1);
+}
+
+.experiencia__botao--repo {
+  padding: 0.2rem 0.4rem;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 2.5px solid var(--lightBlue);
+  opacity: 0.9;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.experiencia__botao--repo:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

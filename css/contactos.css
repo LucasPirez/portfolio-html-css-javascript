@@ -1,0 +1,112 @@
+.background_ {
+  position: relative;
+  width: 100%;
+  height: 5vw;
+  margin-top: 3rem;
+}
+
+.background__contacto {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: content-box;
+  padding-bottom: 2px;
+  border-left: 50vw solid var(--lightDark);
+  border-top: 5vw solid transparent;
+  border-right: 50vw solid transparent;
+}
+.background__contacto2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: content-box;
+  padding-bottom: 2px;
+  border-left: 50vw solid transparent;
+  border-top: 5vw solid transparent;
+  border-right: 50vw solid var(--lightDark);
+}
+
+.formcontato {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.formcontato__container {
+  background: var(--lightDark);
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  color: var(--background);
+  width: 100%;
+  text-align: center;
+}
+
+.formcontato__subtext {
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.formcontato__form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 95%;
+  gap: 26px;
+}
+
+.formcontato__form > div {
+  width: 350px;
+}
+.formcontato__form > div > div {
+  margin-top: 0.5rem;
+}
+
+.formcontato__form div span {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 0.9rem;
+  color: var(--lightBlue);
+}
+
+.formcontato__form div svg {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 20px;
+}
+
+.formcontato__botao {
+  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid var(--lightBlue);
+}
+
+.contacto__network {
+  margin: auto;
+  width: 95%;
+  max-width: 1200px;
+  padding: 2.5rem 0 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.contacto__network__item {
+  display: flex;
+  flex-direction: column;
+  color: var(--lightBlue);
+  transition: all 1s;
+}
+
+.contacto__network__item:hover,
+.contacto__network__item:hover > span {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  color: #09c;
+}
