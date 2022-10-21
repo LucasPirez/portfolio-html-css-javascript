@@ -11,6 +11,7 @@ coloque nas sessões indicadas*/
   --lightBlue: #bbcbd8;
   --lightDark: #30323c;
   --creme: #f3e4ce;
+  overflow-x: hidden;
 }
 
 * {
@@ -23,7 +24,6 @@ body {
   background-color: var(--background);
   font-family: "Raleway";
   line-height: 1;
-  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 ol,
@@ -108,6 +108,7 @@ input[type="checkbox"] {
 
 .tudo {
   width: 100%;
+
   height: auto;
 }
 .skills__title,
