@@ -71,6 +71,10 @@
     width: 97%;
   }
 
+  .button__modal {
+    display: none;
+  }
+
   /*Contacto*/
 
   .contacto__network__item > span {
