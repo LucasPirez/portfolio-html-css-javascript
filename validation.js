@@ -1,8 +1,6 @@
 const inputs = document.querySelectorAll("input");
 const texterea = document.querySelector("textarea");
 
-let bool = false;
-
 const errorMessages = {
   nombre: {
     valueMissing: "Este campo no puede estar vacio",
