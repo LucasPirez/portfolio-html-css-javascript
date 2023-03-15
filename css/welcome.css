@@ -48,3 +48,11 @@ h1 u {
 .select {
   background-color: #e93658;
 }
+
+.ball {
+  background: #f3e4ce;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  z-index: 1;
+}
